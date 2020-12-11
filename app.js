@@ -26,7 +26,7 @@ const app = express();
 //Use cors to give permission to other apps
 app.use(
     cors({
-        origin: ['http://localhost:3000'],
+        origin: ['http://localhost:3000', 'https://jb-project-back.herokuapp.com'],
         credentials: true,
     })
 )
